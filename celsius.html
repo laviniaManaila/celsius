@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="celsius.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="./celsius.css">
+    <title>Convertor de termperatura</title>
+</head>
+<body>
+    <header>
+        <div class="celsius">
+            <h2 class="convertor">Vreau sa faci un convertor de termperatura cu urmatoarele specificatii:</h2>
+            <p> 1. Are un input unde introduci un numar care poate reprezenta Fahrenheit sau Celsius.</p>
+            <p> 2. Are un dropdown (select) din care poti sa alegi Fahrenheit sau Celsius ca sa determini ce reprezinta temperatura.</p>
+            <p> 3. Un buton care converteste numarul la cealalta temperatura: Daca in dropdown avem Celsius, in Fahrenheit. Daca in dropdown avem Fahrenheit, in Celsius.</p>
+            <p> 4. O zona unde e afisat rezultatul conversiei.</p>
+            <h2 class="convertor">Extra dificultate daca termini ce ai mai sus (concentreaza-te pe ce ai mai sus si daca vrei mai mult incearca sa rezolvi si cerintele de mai jos):</h2>
+            <p> 1. Cand utilizatorul schimba numarul din input, sterge rezultatul anterior.</p>
+            <p> 2. Cand userul da pe butonul de convert, fa butonul disabled pana userul nu schimba valoarea din input sau dropdown.</p>
+            <p> 3. Daca userul introduce o valoare eronata in input, cand da click pe convert, afiseaza o eroare si fa inputul sa aiba borduri rosii. Cand userul schimba valoare inputului, fa sa dispara bordurile rosii de pe input.</p>
+            <p>Din nou, concentreaza-te pe functionalitatea de baza (primele 4 puncte). Daca vrei o provocare, poti sa te apuci de ultimele 3 puncte</p>
+        </div>
+    </header>
+    <div class="convertor">
+        <h1>Convertor de termperatura</h1>
+    </div>
+    <div class="result">
+        <input id="temperatureInput" type="number" placeholder="Enter temperature">
+        <select id="unitSelect">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <button id="convertBtn">Convert</button>
+        <div class="result" id="result">Result will be shown here</div>
+    </div>
+</body>
+</html>

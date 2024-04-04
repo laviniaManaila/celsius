@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to bottom, rgb(121, 165, 190), rgb(145, 145, 228));
+}
+
+.celsius{
+   padding: 5px;
+   margin: 10px 0 10px 20px;
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.convertor {
+    text-align: center;
+    color: rgb(99, 85, 30);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline rgb(0, 98, 255);
+}
